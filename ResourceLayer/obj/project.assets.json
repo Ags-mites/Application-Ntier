@@ -1034,11 +1034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ResourceLayer\\ResourceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
       "projectName": "ResourceLayer",
-      "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ResourceLayer\\ResourceLayer.csproj",
+      "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
       "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ResourceLayer\\obj\\",
+      "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",

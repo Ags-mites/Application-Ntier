@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Security.Principal;
 using System.Text;
 using BusinessLayer;
 using ListeningLayer.interfaces;
 using PersistenceLayer;
+using static System.Collections.Specialized.BitVector32;
 
 namespace ListeningLayer
 {
@@ -55,8 +57,10 @@ namespace ListeningLayer
                     byte[] buffer = new byte[1024];
                     int bytesRead = stream.Read(buffer, 0, buffer.Length);
                     string data = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                    string action = Encoding.UTF8.GetString(buffer, 1, bytesRead);
 
-                    SendData(data);
+                    SendData(data, action);
+                    LoadData( action );
 
                     NotifyDataProcessed("Datos procesados correctamente.");
                 }
@@ -67,30 +71,47 @@ namespace ListeningLayer
             }
         }
 
-        public void SendData(string accountData)
+        public void SendData(string accountData, string action)
         {
             try
             {
-                var parts = accountData.Split(';');
-                if (parts.Length != 3) throw new ArgumentException("Datos no válidos: Se esperaban 3 campos separados por ';'.");
+               
+                switch (action) {
+                    case "New-Account":
+                        _accountService.AddAccount(accountData);
+                    break;
 
-                var account = new Account
-                {
-                    code = parts[0],
-                    name = parts[1],
-                    account_type = int.Parse(parts[2]),
-                    status = true,
-                    created_at = DateTime.Now,
-                    updated_at = DateTime.Now
-                };
+                }
 
-                _accountService.AddAccount(account);
-
-                Console.WriteLine("Cuenta procesada y almacenada con éxito.");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error al procesar los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+        public List<AccountType> LoadData( string action )
+        {
+            try
+            {
+                switch (action)
+                {
+                    case "Load-Account":
+                        var accounts = _accountService.GetAccountTypes();
+                        return accounts;
+                    break;
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<AccountType>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
                 throw;
             }
         }

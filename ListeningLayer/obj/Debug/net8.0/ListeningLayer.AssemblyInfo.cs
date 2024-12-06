@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListeningLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6727e01ed4cfbf6940f77357c4801d38dae2cb46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f2728b500c7c866bdb9c20f6bd2258d4230935")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListeningLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListeningLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
