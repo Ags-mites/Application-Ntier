@@ -4,6 +4,7 @@ using ListeningLayer.interfaces;
 using PersistenceLayer;
 using System.Net.Sockets;
 using System.Text;
+using System.Xml.Linq;
 
 namespace PresentationLayer
 {
@@ -38,32 +39,48 @@ namespace PresentationLayer
             dataGridView1.DataSource = bindingSource;
 
             var accounts = _socketListener.LoadData("Load-Account");
-            comboBox1.DataSource = accounts;
-            comboBox1.DisplayMember = "name";
-            comboBox1.ValueMember = "code";
+            selectTypeCreate.DataSource = accounts;
+            selectTypeCreate.DisplayMember = "name";
+            selectTypeCreate.ValueMember = "code";
 
             string[] accountStatus = { "Disponible", "No disponible" };
-            comboBox2.Items.AddRange(accountStatus);
+            selectStatusCreate.Items.AddRange(accountStatus);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //--------------btnCreateAccount-------------------------//
         private void button7_Click(object sender, EventArgs e)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(textBox5.Text) ||
-                    string.IsNullOrWhiteSpace(textBox6.Text) ||
-                    comboBox1.SelectedItem == null || comboBox2.SelectedItem == null)
+                if (string.IsNullOrWhiteSpace(txtCodCreate.Text))
                 {
-                    MessageBox.Show("Por favor, completa todos los campos.");
+                    MessageBox.Show("Por favor, es importante ingresar el código.");
+                    txtCodCreate.Focus();
                     return;
                 }
 
-                var accountData = $"{textBox5.Text};{textBox6.Text};{comboBox1.SelectedItem};{comboBox2.SelectedItem}";
+                if (string.IsNullOrWhiteSpace(txtNameCreate.Text))
+                {
+                    MessageBox.Show("Por favor, es importante ingresar el nombre de cuenta.");
+                    txtNameCreate.Focus();
+                    return;
+                }
+
+                if (selectTypeCreate.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor, es importante seleccionar un tipo de cuenta.");
+                    selectTypeCreate.Focus();
+                    return;
+                }
+
+                if (selectStatusCreate.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor, es importante seleccionar el estado de la cuenta.");
+                    selectStatusCreate.Focus();
+                    return;
+                }
+
+                var accountData = $"{txtCodCreate.Text};{txtNameCreate.Text};{selectTypeCreate.SelectedItem};{selectStatusCreate.SelectedItem}";
                 _socketListener.SendData(accountData, "New-Account");
 
                 MessageBox.Show("Datos enviados a la capa de escucha.");
@@ -74,9 +91,47 @@ namespace PresentationLayer
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEditAccount_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtCodCreate.Text))
+                {
+                    MessageBox.Show("Por favor, es importante ingresar el código.");
+                    txtCodCreate.Focus();
+                    return;
+                }
 
+                if (string.IsNullOrWhiteSpace(txtNameCreate.Text))
+                {
+                    MessageBox.Show("Por favor, es importante ingresar el nombre de cuenta.");
+                    txtNameCreate.Focus();
+                    return;
+                }
+
+                if (selectTypeCreate.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor, es importante seleccionar un tipo de cuenta.");
+                    selectTypeCreate.Focus();
+                    return;
+                }
+
+                if (selectStatusCreate.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor, es importante seleccionar el estado de la cuenta.");
+                    selectStatusCreate.Focus();
+                    return;
+                }
+
+                var accountData = $"{txtCodCreate.Text};{txtNameCreate.Text};{selectTypeCreate.SelectedItem};{selectStatusCreate.SelectedItem}";
+                _socketListener.SendData(accountData, "New-Account");
+
+                MessageBox.Show("Datos enviados a la capa de escucha.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
     }
 }

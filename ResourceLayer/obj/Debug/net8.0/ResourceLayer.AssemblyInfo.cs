@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResourceLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5f2728b500c7c866bdb9c20f6bd2258d4230935")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2790fcbd9eea5b5ebf6ccb4e41264bcc4936c3b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResourceLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResourceLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

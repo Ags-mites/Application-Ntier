@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,53 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 524,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountRepository.cs",
-              "RelativeToolTip": "PersistenceLayer\\AccountRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:16:51.358Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 524,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountType.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountType.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\AccountType.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountType.cs",
-              "RelativeToolTip": "PersistenceLayer\\AccountType.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:17:54.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\Account.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\Account.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\Account.cs",
-              "RelativeToolTip": "PersistenceLayer\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:16:29.212Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -88,44 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:11:50.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\interfaces\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\interfaces\\IAccountRepository.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\interfaces\\IAccountRepository.cs",
-              "RelativeToolTip": "PersistenceLayer\\interfaces\\IAccountRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:16:34.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:11:15.839Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

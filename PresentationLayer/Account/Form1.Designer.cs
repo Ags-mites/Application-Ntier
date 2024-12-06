@@ -44,11 +44,11 @@
             panel3 = new Panel();
             label3 = new Label();
             groupBox1 = new GroupBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
-            button7 = new Button();
-            textBox6 = new TextBox();
-            textBox5 = new TextBox();
+            selectStatusCreate = new ComboBox();
+            selectTypeCreate = new ComboBox();
+            btnCreateAccount = new Button();
+            txtNameCreate = new TextBox();
+            txtCodCreate = new TextBox();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
@@ -56,22 +56,22 @@
             groupBox2 = new GroupBox();
             dataGridView1 = new DataGridView();
             groupBox3 = new GroupBox();
-            comboBox3 = new ComboBox();
-            comboBox4 = new ComboBox();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            selectCodEdit = new ComboBox();
+            selectStatusEdit = new ComboBox();
+            selectTypeEdit = new ComboBox();
+            btnEditAccount = new Button();
+            txtNameEdit = new TextBox();
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
             groupBox4 = new GroupBox();
-            comboBox5 = new ComboBox();
+            selectNameDelete = new ComboBox();
             button8 = new Button();
             label14 = new Label();
             groupBox6 = new GroupBox();
             button10 = new Button();
-            textBox7 = new TextBox();
+            txtNameSearch = new TextBox();
             label17 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -134,7 +134,6 @@
             label1.Size = new Size(111, 27);
             label1.TabIndex = 0;
             label1.Text = "Dashboard";
-            label1.Click += label1_Click;
             // 
             // panel2
             // 
@@ -216,11 +215,11 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(comboBox2);
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(button7);
-            groupBox1.Controls.Add(textBox6);
-            groupBox1.Controls.Add(textBox5);
+            groupBox1.Controls.Add(selectStatusCreate);
+            groupBox1.Controls.Add(selectTypeCreate);
+            groupBox1.Controls.Add(btnCreateAccount);
+            groupBox1.Controls.Add(txtNameCreate);
+            groupBox1.Controls.Add(txtCodCreate);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
@@ -232,45 +231,45 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Crear Cuenta";
             // 
-            // comboBox2
+            // selectStatusCreate
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(127, 118);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(137, 23);
-            comboBox2.TabIndex = 10;
+            selectStatusCreate.FormattingEnabled = true;
+            selectStatusCreate.Location = new Point(127, 118);
+            selectStatusCreate.Name = "selectStatusCreate";
+            selectStatusCreate.Size = new Size(137, 23);
+            selectStatusCreate.TabIndex = 10;
             // 
-            // comboBox1
+            // selectTypeCreate
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(127, 86);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(137, 23);
-            comboBox1.TabIndex = 9;
+            selectTypeCreate.FormattingEnabled = true;
+            selectTypeCreate.Location = new Point(127, 86);
+            selectTypeCreate.Name = "selectTypeCreate";
+            selectTypeCreate.Size = new Size(137, 23);
+            selectTypeCreate.TabIndex = 9;
             // 
-            // button7
+            // btnCreateAccount
             // 
-            button7.Location = new Point(151, 170);
-            button7.Name = "button7";
-            button7.Size = new Size(113, 23);
-            button7.TabIndex = 8;
-            button7.Text = "Crear Cuenta";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            btnCreateAccount.Location = new Point(151, 170);
+            btnCreateAccount.Name = "btnCreateAccount";
+            btnCreateAccount.Size = new Size(113, 23);
+            btnCreateAccount.TabIndex = 8;
+            btnCreateAccount.Text = "Crear Cuenta";
+            btnCreateAccount.UseVisualStyleBackColor = true;
+            btnCreateAccount.Click += button7_Click;
             // 
-            // textBox6
+            // txtNameCreate
             // 
-            textBox6.Location = new Point(127, 57);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(137, 23);
-            textBox6.TabIndex = 5;
+            txtNameCreate.Location = new Point(127, 57);
+            txtNameCreate.Name = "txtNameCreate";
+            txtNameCreate.Size = new Size(137, 23);
+            txtNameCreate.TabIndex = 5;
             // 
-            // textBox5
+            // txtCodCreate
             // 
-            textBox5.Location = new Point(127, 27);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(137, 23);
-            textBox5.TabIndex = 4;
+            txtCodCreate.Location = new Point(127, 27);
+            txtCodCreate.Name = "txtCodCreate";
+            txtCodCreate.Size = new Size(137, 23);
+            txtCodCreate.TabIndex = 4;
             // 
             // label7
             // 
@@ -311,9 +310,9 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(255, 336);
+            groupBox2.Location = new Point(255, 309);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(848, 264);
+            groupBox2.Size = new Size(848, 291);
             groupBox2.TabIndex = 10;
             groupBox2.TabStop = false;
             groupBox2.Text = "Cuentas registradas";
@@ -323,16 +322,16 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(15, 22);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(817, 236);
+            dataGridView1.Size = new Size(817, 263);
             dataGridView1.TabIndex = 0;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(comboBox3);
-            groupBox3.Controls.Add(comboBox4);
-            groupBox3.Controls.Add(button1);
-            groupBox3.Controls.Add(textBox1);
-            groupBox3.Controls.Add(textBox2);
+            groupBox3.Controls.Add(selectCodEdit);
+            groupBox3.Controls.Add(selectStatusEdit);
+            groupBox3.Controls.Add(selectTypeEdit);
+            groupBox3.Controls.Add(btnEditAccount);
+            groupBox3.Controls.Add(txtNameEdit);
             groupBox3.Controls.Add(label8);
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(label10);
@@ -344,45 +343,46 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Editar cuenta";
             // 
-            // comboBox3
+            // selectCodEdit
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(111, 121);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(142, 23);
-            comboBox3.TabIndex = 10;
+            selectCodEdit.FormattingEnabled = true;
+            selectCodEdit.Location = new Point(111, 26);
+            selectCodEdit.Name = "selectCodEdit";
+            selectCodEdit.Size = new Size(142, 23);
+            selectCodEdit.TabIndex = 11;
             // 
-            // comboBox4
+            // selectStatusEdit
             // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(111, 91);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(142, 23);
-            comboBox4.TabIndex = 9;
+            selectStatusEdit.FormattingEnabled = true;
+            selectStatusEdit.Location = new Point(111, 121);
+            selectStatusEdit.Name = "selectStatusEdit";
+            selectStatusEdit.Size = new Size(142, 23);
+            selectStatusEdit.TabIndex = 10;
             // 
-            // button1
+            // selectTypeEdit
             // 
-            button1.Location = new Point(135, 170);
-            button1.Name = "button1";
-            button1.Size = new Size(118, 23);
-            button1.TabIndex = 8;
-            button1.Text = "Editar Cuenta";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            selectTypeEdit.FormattingEnabled = true;
+            selectTypeEdit.Location = new Point(111, 91);
+            selectTypeEdit.Name = "selectTypeEdit";
+            selectTypeEdit.Size = new Size(142, 23);
+            selectTypeEdit.TabIndex = 9;
             // 
-            // textBox1
+            // btnEditAccount
             // 
-            textBox1.Location = new Point(111, 57);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(142, 23);
-            textBox1.TabIndex = 5;
+            btnEditAccount.Location = new Point(135, 170);
+            btnEditAccount.Name = "btnEditAccount";
+            btnEditAccount.Size = new Size(118, 23);
+            btnEditAccount.TabIndex = 8;
+            btnEditAccount.Text = "Editar Cuenta";
+            btnEditAccount.UseVisualStyleBackColor = true;
+            btnEditAccount.Click += btnEditAccount_Click;
             // 
-            // textBox2
+            // txtNameEdit
             // 
-            textBox2.Location = new Point(111, 27);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(142, 23);
-            textBox2.TabIndex = 4;
+            txtNameEdit.Location = new Point(111, 57);
+            txtNameEdit.Name = "txtNameEdit";
+            txtNameEdit.Size = new Size(142, 23);
+            txtNameEdit.TabIndex = 5;
             // 
             // label8
             // 
@@ -422,7 +422,7 @@
             // 
             // groupBox4
             // 
-            groupBox4.Controls.Add(comboBox5);
+            groupBox4.Controls.Add(selectNameDelete);
             groupBox4.Controls.Add(button8);
             groupBox4.Controls.Add(label14);
             groupBox4.Location = new Point(826, 96);
@@ -432,13 +432,13 @@
             groupBox4.TabStop = false;
             groupBox4.Text = "Eliminar cuenta";
             // 
-            // comboBox5
+            // selectNameDelete
             // 
-            comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(111, 26);
-            comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(142, 23);
-            comboBox5.TabIndex = 10;
+            selectNameDelete.FormattingEnabled = true;
+            selectNameDelete.Location = new Point(111, 26);
+            selectNameDelete.Name = "selectNameDelete";
+            selectNameDelete.Size = new Size(142, 23);
+            selectNameDelete.TabIndex = 10;
             // 
             // button8
             // 
@@ -446,7 +446,7 @@
             button8.Name = "button8";
             button8.Size = new Size(118, 23);
             button8.TabIndex = 8;
-            button8.Text = "Editar Cuenta";
+            button8.Text = "Eliminar Cuenta";
             button8.UseVisualStyleBackColor = true;
             // 
             // label14
@@ -461,7 +461,7 @@
             // groupBox6
             // 
             groupBox6.Controls.Add(button10);
-            groupBox6.Controls.Add(textBox7);
+            groupBox6.Controls.Add(txtNameSearch);
             groupBox6.Controls.Add(label17);
             groupBox6.Location = new Point(826, 205);
             groupBox6.Name = "groupBox6";
@@ -476,24 +476,24 @@
             button10.Name = "button10";
             button10.Size = new Size(118, 23);
             button10.TabIndex = 8;
-            button10.Text = "Editar Cuenta";
+            button10.Text = "Buscar Cuenta";
             button10.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // txtNameSearch
             // 
-            textBox7.Location = new Point(111, 27);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(142, 23);
-            textBox7.TabIndex = 4;
+            txtNameSearch.Location = new Point(111, 27);
+            txtNameSearch.Name = "txtNameSearch";
+            txtNameSearch.Size = new Size(142, 23);
+            txtNameSearch.TabIndex = 4;
             // 
             // label17
             // 
             label17.AutoSize = true;
             label17.Location = new Point(15, 35);
             label17.Name = "label17";
-            label17.Size = new Size(46, 15);
+            label17.Size = new Size(51, 15);
             label17.TabIndex = 0;
-            label17.Text = "Código";
+            label17.Text = "Nombre";
             // 
             // Form1
             // 
@@ -548,23 +548,22 @@
         private Panel panel3;
         private Label label3;
         private GroupBox groupBox1;
-        private Button button7;
-        private TextBox textBox6;
-        private TextBox textBox5;
+        private Button btnCreateAccount;
+        private TextBox txtNameCreate;
+        private TextBox txtCodCreate;
         private Label label7;
         private Label label6;
         private Label label5;
         private Label label4;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private ComboBox selectStatusCreate;
+        private ComboBox selectTypeCreate;
         private GroupBox groupBox2;
         private DataGridView dataGridView1;
         private GroupBox groupBox3;
-        private ComboBox comboBox3;
-        private ComboBox comboBox4;
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private ComboBox selectStatusEdit;
+        private ComboBox selectTypeEdit;
+        private Button btnEditAccount;
+        private TextBox txtNameEdit;
         private Label label8;
         private Label label9;
         private Label label10;
@@ -573,9 +572,10 @@
         private Button button8;
         private GroupBox groupBox6;
         private Button button10;
-        private TextBox textBox7;
+        private TextBox txtNameSearch;
         private Label label17;
-        private ComboBox comboBox5;
+        private ComboBox selectNameDelete;
         private Label label14;
+        private ComboBox selectCodEdit;
     }
 }
