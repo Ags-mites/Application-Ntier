@@ -53,5 +53,10 @@ namespace BusinessLayer
             return _repository.Search(keyword);
         }
 
+        public List<Account> GetAllAccountsByAccountType()
+        {
+            return _repository.GetAllAccountsByAccountType();
+        }
+
     }
 }

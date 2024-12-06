@@ -69,8 +69,6 @@
             comboBox5 = new ComboBox();
             button8 = new Button();
             label14 = new Label();
-            label15 = new Label();
-            textBox4 = new TextBox();
             groupBox6 = new GroupBox();
             button10 = new Button();
             textBox7 = new TextBox();
@@ -153,7 +151,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(26, 535);
+            button6.Location = new Point(26, 504);
             button6.Name = "button6";
             button6.Size = new Size(188, 23);
             button6.TabIndex = 9;
@@ -313,7 +311,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(255, 356);
+            groupBox2.Location = new Point(255, 336);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(848, 264);
             groupBox2.TabIndex = 10;
@@ -426,12 +424,10 @@
             // 
             groupBox4.Controls.Add(comboBox5);
             groupBox4.Controls.Add(button8);
-            groupBox4.Controls.Add(textBox4);
             groupBox4.Controls.Add(label14);
-            groupBox4.Controls.Add(label15);
             groupBox4.Location = new Point(826, 96);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(277, 144);
+            groupBox4.Size = new Size(277, 103);
             groupBox4.TabIndex = 12;
             groupBox4.TabStop = false;
             groupBox4.Text = "Eliminar cuenta";
@@ -439,14 +435,14 @@
             // comboBox5
             // 
             comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(111, 62);
+            comboBox5.Location = new Point(111, 26);
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(142, 23);
             comboBox5.TabIndex = 10;
             // 
             // button8
             // 
-            button8.Location = new Point(135, 109);
+            button8.Location = new Point(135, 65);
             button8.Name = "button8";
             button8.Size = new Size(118, 23);
             button8.TabIndex = 8;
@@ -456,36 +452,20 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(15, 65);
+            label14.Location = new Point(15, 29);
             label14.Name = "label14";
             label14.Size = new Size(51, 15);
             label14.TabIndex = 1;
             label14.Text = "Nombre";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(15, 35);
-            label15.Name = "label15";
-            label15.Size = new Size(46, 15);
-            label15.TabIndex = 0;
-            label15.Text = "Código";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(111, 27);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(142, 23);
-            textBox4.TabIndex = 4;
             // 
             // groupBox6
             // 
             groupBox6.Controls.Add(button10);
             groupBox6.Controls.Add(textBox7);
             groupBox6.Controls.Add(label17);
-            groupBox6.Location = new Point(826, 246);
+            groupBox6.Location = new Point(826, 205);
             groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(277, 115);
+            groupBox6.Size = new Size(277, 98);
             groupBox6.TabIndex = 14;
             groupBox6.TabStop = false;
             groupBox6.Text = "Buscar cuenta";
@@ -519,7 +499,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1118, 632);
+            ClientSize = new Size(1118, 610);
             Controls.Add(groupBox6);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
@@ -590,14 +570,12 @@
         private Label label10;
         private Label label11;
         private GroupBox groupBox4;
-        private ComboBox comboBox5;
         private Button button8;
-        private TextBox textBox4;
-        private Label label14;
-        private Label label15;
         private GroupBox groupBox6;
         private Button button10;
         private TextBox textBox7;
         private Label label17;
+        private ComboBox comboBox5;
+        private Label label14;
     }
 }

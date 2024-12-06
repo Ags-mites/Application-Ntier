@@ -204,7 +204,7 @@ namespace PersistenceLayer
             }
         }
 
-        public List<Account> ReadAllWithDetails()
+        public List<Account> GetAllAccountsByAccountType()
         {
             try
             {

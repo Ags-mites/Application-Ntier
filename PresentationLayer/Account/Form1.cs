@@ -1,6 +1,7 @@
 using ListeningLayer;
 using ListeningLayer.controllers;
 using ListeningLayer.interfaces;
+using PersistenceLayer;
 using System.Net.Sockets;
 using System.Text;
 
@@ -30,6 +31,12 @@ namespace PresentationLayer
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            var accountRepository = _socketListener.LoadDataAccount("Load-AllAccount");
+            var bindingSource = new BindingSource();
+            bindingSource.DataSource = accountRepository;
+            dataGridView1.DataSource = bindingSource;
+
             var accounts = _socketListener.LoadData("Load-Account");
             comboBox1.DataSource = accounts;
             comboBox1.DisplayMember = "name";

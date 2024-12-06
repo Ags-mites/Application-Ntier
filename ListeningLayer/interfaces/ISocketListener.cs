@@ -12,6 +12,7 @@ namespace ListeningLayer.interfaces
         void StartListening();
         void SendData(string data, string acction);
         List<AccountType> LoadData(string acction);
+        List<Account> LoadDataAccount(string acction);
         event Action<string> DataProcessed;
     }
 }

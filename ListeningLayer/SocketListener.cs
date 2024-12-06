@@ -60,6 +60,7 @@ namespace ListeningLayer
                     string action = Encoding.UTF8.GetString(buffer, 1, bytesRead);
 
                     SendData(data, action);
+                    LoadDataAccount(action);
                     LoadData( action );
 
                     NotifyDataProcessed("Datos procesados correctamente.");
@@ -91,6 +92,32 @@ namespace ListeningLayer
             }
         }
 
+        public List<Account> LoadDataAccount(string action)
+        {
+            try
+            {
+                switch (action)
+                {
+                    
+                    case "Load-AllAccount":
+                        var allAccounts = _accountService.GetAllAccountsByAccountType();
+                        return allAccounts;
+
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<Account>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
         public List<AccountType> LoadData( string action )
         {
             try
@@ -100,7 +127,6 @@ namespace ListeningLayer
                     case "Load-Account":
                         var accounts = _accountService.GetAccountTypes();
                         return accounts;
-                    break;
 
                     default:
                         NotifyDataProcessed("Acción no reconocida.");
