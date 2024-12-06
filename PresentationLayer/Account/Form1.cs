@@ -32,22 +32,9 @@ namespace PresentationLayer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            var accountRepository = _socketListener.LoadDataAccount("Load-AllAccount");
-            var bindingSource = new BindingSource();
-            bindingSource.DataSource = accountRepository;
-            dataGridView1.DataSource = bindingSource;
-
-            var accounts = _socketListener.LoadData("Load-Account");
-            selectTypeCreate.DataSource = accounts;
-            selectTypeCreate.DisplayMember = "name";
-            selectTypeCreate.ValueMember = "code";
-
-            string[] accountStatus = { "Disponible", "No disponible" };
-            selectStatusCreate.Items.AddRange(accountStatus);
+            ReloadData();
         }
 
-        //--------------btnCreateAccount-------------------------//
         private void button7_Click(object sender, EventArgs e)
         {
             try
@@ -79,11 +66,10 @@ namespace PresentationLayer
                     selectStatusCreate.Focus();
                     return;
                 }
-
-                var accountData = $"{txtCodCreate.Text};{txtNameCreate.Text};{selectTypeCreate.SelectedItem};{selectStatusCreate.SelectedItem}";
+                var accountData = $"{txtCodCreate.Text};{txtNameCreate.Text};{selectTypeCreate.SelectedValue};{selectStatusCreate.SelectedItem}";
                 _socketListener.SendData(accountData, "New-Account");
-
                 MessageBox.Show("Datos enviados a la capa de escucha.");
+                ReloadData();
             }
             catch (Exception ex)
             {
@@ -93,45 +79,115 @@ namespace PresentationLayer
 
         private void btnEditAccount_Click(object sender, EventArgs e)
         {
+            var selectedEditId = selectCodEdit.SelectedValue?.ToString() ?? string.Empty;
             try
             {
-                if (string.IsNullOrWhiteSpace(txtCodCreate.Text))
+                if (selectCodEdit.SelectedItem == null)
                 {
-                    MessageBox.Show("Por favor, es importante ingresar el código.");
-                    txtCodCreate.Focus();
+                    MessageBox.Show("Por favor, es importante seleccionar el código.");
+                    selectCodEdit.Focus();
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(txtNameCreate.Text))
+                if (string.IsNullOrWhiteSpace(txtNameEdit.Text))
                 {
                     MessageBox.Show("Por favor, es importante ingresar el nombre de cuenta.");
-                    txtNameCreate.Focus();
+                    txtNameEdit.Focus();
                     return;
                 }
 
-                if (selectTypeCreate.SelectedItem == null)
+                if (selectTypeEdit.SelectedItem == null)
                 {
                     MessageBox.Show("Por favor, es importante seleccionar un tipo de cuenta.");
-                    selectTypeCreate.Focus();
+                    selectTypeEdit.Focus();
                     return;
                 }
 
-                if (selectStatusCreate.SelectedItem == null)
+                if (selectStatusEdit.SelectedItem == null)
                 {
                     MessageBox.Show("Por favor, es importante seleccionar el estado de la cuenta.");
-                    selectStatusCreate.Focus();
+                    selectStatusEdit.Focus();
                     return;
                 }
 
-                var accountData = $"{txtCodCreate.Text};{txtNameCreate.Text};{selectTypeCreate.SelectedItem};{selectStatusCreate.SelectedItem}";
-                _socketListener.SendData(accountData, "New-Account");
-
+                var accountData = $"{selectedEditId};{selectCodEdit.SelectedValue};{txtNameEdit.Text};{selectTypeEdit.SelectedValue};{selectStatusEdit.SelectedItem}";
+                _socketListener.SendData(accountData, "Edit-Account");
+                MessageBox.Show($"Datos a editar {selectedEditId}");
                 MessageBox.Show("Datos enviados a la capa de escucha.");
+                ReloadData();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void btnEliminarAccount_Click(object sender, EventArgs e)
+        {
+            var selectedId = selectNameDelete.SelectedValue?.ToString() ?? string.Empty;
+            var selectedAccount = selectNameDelete.Text;
+
+            try
+            {
+
+                MessageBox.Show($"Se eliminara la cuenta {selectedAccount} ");
+                if (selectedId == string.Empty)
+                {
+                    throw new Exception("No puede eliminar una cuenta sin antes seleccionarla");
+                }
+
+                MessageBox.Show($"La cuenta {selectedAccount} fue eliminada");
+                _socketListener.DeleteData(selectedId, "Delete-Account");
+
+                ReloadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al eliminar la cuenta {selectedAccount}");
+            }
+        }
+
+        private void searchBtn_Click(object sender, EventArgs e)
+        {
+        }
+
+        public void ReloadData()
+        {
+            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository");
+            var bindingSource = new BindingSource();
+            bindingSource.DataSource = reportAccountsRepository;
+            dataGridView1.DataSource = bindingSource;
+
+            var accountsType = _socketListener.LoadData("Load-AccountType");
+            var accountsTypeCreate = new List<AccountType>(accountsType);
+            var accountsTypeEdit = new List<AccountType>(accountsType);
+
+            selectTypeCreate.DataSource = accountsTypeCreate;
+            selectTypeCreate.DisplayMember = "name";
+            selectTypeCreate.ValueMember = "id";
+
+            selectTypeEdit.DataSource = accountsTypeEdit;
+            selectTypeEdit.DisplayMember = "name";
+            selectTypeEdit.ValueMember = "id";
+
+            string[] accountStatus = { "Disponible", "No disponible" };
+            selectStatusCreate.Items.Clear();
+            selectStatusCreate.Items.AddRange(accountStatus);
+
+            selectStatusEdit.Items.Clear();
+            selectStatusEdit.Items.AddRange(accountStatus);
+
+            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts");
+            var allAccountsEdit = new List<Account>(allAccounts);
+            var allAccountsDelete = new List<Account>(allAccounts);
+
+            selectCodEdit.DataSource = allAccountsEdit;
+            selectCodEdit.DisplayMember = "code";
+            selectCodEdit.ValueMember = "id";
+
+            selectNameDelete.DataSource = allAccountsDelete;
+            selectNameDelete.DisplayMember = "name";
+            selectNameDelete.ValueMember = "id";
         }
     }
 }

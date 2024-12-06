@@ -78,7 +78,7 @@ namespace PersistenceLayer
             }
         }
 
-        public List<Account> ReadAll()
+        public List<Account> GetAccounts()
         {
             try
             {
@@ -128,7 +128,7 @@ namespace PersistenceLayer
                         command.Parameters.Add(new OracleParameter("name", account.name));
                         command.Parameters.Add(new OracleParameter("account_type", account.account_type_id));
                         command.Parameters.Add(new OracleParameter("status", account.status));
-                        command.Parameters.Add(new OracleParameter("updated_at", DateTime.Now));
+                        command.Parameters.Add(new OracleParameter("updated_at", account.updated_at));
                         command.Parameters.Add(new OracleParameter("id", account.id));
 
                         command.ExecuteNonQuery();
@@ -204,7 +204,7 @@ namespace PersistenceLayer
             }
         }
 
-        public List<Account> GetAllAccountsByAccountType()
+        public List<Account> GetAccountsRepository()
         {
             try
             {

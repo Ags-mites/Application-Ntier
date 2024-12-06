@@ -67,10 +67,10 @@
             label11 = new Label();
             groupBox4 = new GroupBox();
             selectNameDelete = new ComboBox();
-            button8 = new Button();
+            btnEliminarAccount = new Button();
             label14 = new Label();
             groupBox6 = new GroupBox();
-            button10 = new Button();
+            searchBtn = new Button();
             txtNameSearch = new TextBox();
             label17 = new Label();
             panel1.SuspendLayout();
@@ -423,7 +423,7 @@
             // groupBox4
             // 
             groupBox4.Controls.Add(selectNameDelete);
-            groupBox4.Controls.Add(button8);
+            groupBox4.Controls.Add(btnEliminarAccount);
             groupBox4.Controls.Add(label14);
             groupBox4.Location = new Point(826, 96);
             groupBox4.Name = "groupBox4";
@@ -440,14 +440,15 @@
             selectNameDelete.Size = new Size(142, 23);
             selectNameDelete.TabIndex = 10;
             // 
-            // button8
+            // btnEliminarAccount
             // 
-            button8.Location = new Point(135, 65);
-            button8.Name = "button8";
-            button8.Size = new Size(118, 23);
-            button8.TabIndex = 8;
-            button8.Text = "Eliminar Cuenta";
-            button8.UseVisualStyleBackColor = true;
+            btnEliminarAccount.Location = new Point(135, 65);
+            btnEliminarAccount.Name = "btnEliminarAccount";
+            btnEliminarAccount.Size = new Size(118, 23);
+            btnEliminarAccount.TabIndex = 8;
+            btnEliminarAccount.Text = "Eliminar Cuenta";
+            btnEliminarAccount.UseVisualStyleBackColor = true;
+            btnEliminarAccount.Click += btnEliminarAccount_Click;
             // 
             // label14
             // 
@@ -460,7 +461,7 @@
             // 
             // groupBox6
             // 
-            groupBox6.Controls.Add(button10);
+            groupBox6.Controls.Add(searchBtn);
             groupBox6.Controls.Add(txtNameSearch);
             groupBox6.Controls.Add(label17);
             groupBox6.Location = new Point(826, 205);
@@ -470,14 +471,15 @@
             groupBox6.TabStop = false;
             groupBox6.Text = "Buscar cuenta";
             // 
-            // button10
+            // searchBtn
             // 
-            button10.Location = new Point(135, 67);
-            button10.Name = "button10";
-            button10.Size = new Size(118, 23);
-            button10.TabIndex = 8;
-            button10.Text = "Buscar Cuenta";
-            button10.UseVisualStyleBackColor = true;
+            searchBtn.Location = new Point(135, 67);
+            searchBtn.Name = "searchBtn";
+            searchBtn.Size = new Size(118, 23);
+            searchBtn.TabIndex = 8;
+            searchBtn.Text = "Buscar Cuenta";
+            searchBtn.UseVisualStyleBackColor = true;
+            searchBtn.Click += searchBtn_Click;
             // 
             // txtNameSearch
             // 
@@ -569,9 +571,9 @@
         private Label label10;
         private Label label11;
         private GroupBox groupBox4;
-        private Button button8;
+        private Button btnEliminarAccount;
         private GroupBox groupBox6;
-        private Button button10;
+        private Button searchBtn;
         private TextBox txtNameSearch;
         private Label label17;
         private ComboBox selectNameDelete;

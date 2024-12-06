@@ -33,13 +33,26 @@ namespace BusinessLayer
         {
             return _repository.GetAccountTypes();
         }
-        public List<Account> ReadAllAccounts()
+        public List<Account> GetAccounts()
         {
-            return _repository.ReadAll();
+            return _repository.GetAccounts();
         }
 
-        public void UpdateAccount(Account account)
+        public void UpdateAccount(string accountData)
         {
+            var parts = accountData.Split(';');
+            if (parts.Length != 5) throw new ArgumentException("Datos no válidos: Se esperaban 4 campos separados por ';'.");
+
+            var account = new Account
+            {
+                id = int.Parse(parts[0]),
+                code = parts[1],
+                name = parts[2],
+                account_type_id = int.Parse(parts[3]),
+                status = "ACTIVE",
+                updated_at = DateTime.Now
+            };
+
             _repository.Update(account);
         }
 
@@ -53,9 +66,9 @@ namespace BusinessLayer
             return _repository.Search(keyword);
         }
 
-        public List<Account> GetAllAccountsByAccountType()
+        public List<Account> GetAccountsRepository()
         {
-            return _repository.GetAllAccountsByAccountType();
+            return _repository.GetAccountsRepository();
         }
 
     }
