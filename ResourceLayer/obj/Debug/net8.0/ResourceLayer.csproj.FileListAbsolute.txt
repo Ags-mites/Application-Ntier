@@ -11,3 +11,17 @@ C:\Users\Agustin Mites\source\repos\NLayeredApp\ResourceLayer\obj\Debug\net8.0\R
 C:\Users\Agustin Mites\source\repos\NLayeredApp\ResourceLayer\obj\Debug\net8.0\refint\ResourceLayer.dll
 C:\Users\Agustin Mites\source\repos\NLayeredApp\ResourceLayer\obj\Debug\net8.0\ResourceLayer.pdb
 C:\Users\Agustin Mites\source\repos\NLayeredApp\ResourceLayer\obj\Debug\net8.0\ref\ResourceLayer.dll
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.deps.json
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.AssemblyReference.cache
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfoInputs.cache
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfo.cs
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.sourcelink.json
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\refint\ResourceLayer.dll
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ref\ResourceLayer.dll

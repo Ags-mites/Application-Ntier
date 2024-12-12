@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\nlayeredapp\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\listeninglayer\\socketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|solutionrelative:listeninglayer\\socketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\nlayeredapp\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\listeninglayer\\controllers\\socketlistenercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|solutionrelative:listeninglayer\\controllers\\socketlistenercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 524,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
+              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
+              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAQwMAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:54:35.119Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -31,27 +48,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\PresentationLayer\\Login.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\PresentationLayer\\Login.cs",
-              "RelativeToolTip": "PresentationLayer\\Login.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAAMAAAA",
+              "Title": "SocketListenerController.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\controllers\\SocketListenerController.cs",
+              "RelativeDocumentMoniker": "ListeningLayer\\controllers\\SocketListenerController.cs",
+              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\controllers\\SocketListenerController.cs",
+              "RelativeToolTip": "ListeningLayer\\controllers\\SocketListenerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:25:54.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T18:16:18.188Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\PresentationLayer\\Login.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\PresentationLayer\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Login.cs [Dise\u00F1o]",
+              "Title": "SocketListener.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\SocketListener.cs",
+              "RelativeDocumentMoniker": "ListeningLayer\\SocketListener.cs",
+              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\SocketListener.cs",
+              "RelativeToolTip": "ListeningLayer\\SocketListener.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:21:51.579Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-06T14:57:16.629Z",
+              "EditorCaption": ""
             }
           ]
         }

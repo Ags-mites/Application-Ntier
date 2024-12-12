@@ -1089,11 +1089,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ListeningLayer\\ListeningLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
       "projectName": "ListeningLayer",
-      "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ListeningLayer\\ListeningLayer.csproj",
+      "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
       "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\ListeningLayer\\obj\\",
+      "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1111,8 +1111,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\NLayeredApp\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }
