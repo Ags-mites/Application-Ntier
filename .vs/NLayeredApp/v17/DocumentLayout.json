@@ -35,8 +35,7 @@
               "ViewState": "AQIAAJ0AAAAAAAAAAAAQwMAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T14:54:35.119Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "ListeningLayer\\controllers\\SocketListenerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T18:16:18.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T18:16:18.188Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "ListeningLayer\\SocketListener.cs",
               "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\SocketListener.cs",
               "RelativeToolTip": "ListeningLayer\\SocketListener.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADwAAAAUAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T14:57:16.629Z",
               "EditorCaption": ""

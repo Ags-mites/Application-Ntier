@@ -37,6 +37,12 @@ namespace ListeningLayer
                         byte[] buffer = new byte[1024];
                         int bytesRead = stream.Read(buffer, 0, buffer.Length);
                         string data = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                        string action = Encoding.UTF8.GetString(buffer, 1, bytesRead);
+
+                        SendData(data, action);
+                        LoadDataAccounts(action);
+                        LoadData(action);
+                        DeleteData(data, action);
 
                         NotifyDataProcessed($"Datos recibidos: {data}");
                     }
@@ -47,35 +53,7 @@ namespace ListeningLayer
                 }
             }
         }
-
-        private void HandleClient(TcpClient client)
-        {
-            try
-            {
-                using (client)
-                using (NetworkStream stream = client.GetStream())
-                {
-                    byte[] buffer = new byte[1024];
-                    int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                    string jsonData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                    Console.WriteLine($"Error al leer los datos: {jsonData}");
-                    string data = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                    string action = Encoding.UTF8.GetString(buffer, 1, bytesRead);
-
-                    SendData(data, action);
-                    LoadDataAccounts(action);
-                    LoadData( action );
-                    DeleteData(data, action);
-
-                    NotifyDataProcessed("Datos procesados correctamente.");
-                }
-            }
-            catch (Exception ex)
-            {
-                NotifyDataProcessed($"Error al procesar cliente: {ex.Message}");
-            }
-        }
-
+      
         public void SendData(string accountData, string action)
         {
             try
