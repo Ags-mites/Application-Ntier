@@ -3,7 +3,7 @@ using PersistenceLayer.interfaces;
 using ResourceLayer;
 using System;
 
-namespace PersistenceLayer
+namespace PersistenceLayer.DTO
 {
     public class AccountRepository : IAccountRepository
     {
@@ -64,7 +64,7 @@ namespace PersistenceLayer
                                 code = reader.GetString(1),
                                 name = reader.GetString(2),
                                 status = reader.GetString(3),
-                                
+
                             });
                         }
                     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {}
+    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
+    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
+        "projectUniqueName": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
         "projectName": "ResourceLayer",
-        "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
+        "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
         "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\obj\\",
+        "outputPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",

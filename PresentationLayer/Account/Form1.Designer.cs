@@ -42,6 +42,9 @@
             button3 = new Button();
             button2 = new Button();
             panel3 = new Panel();
+            button8 = new Button();
+            Voucher = new Button();
+            AccountType = new Button();
             label3 = new Label();
             groupBox1 = new GroupBox();
             selectStatusCreate = new ComboBox();
@@ -196,11 +199,43 @@
             // panel3
             // 
             panel3.BackColor = Color.White;
+            panel3.Controls.Add(button8);
+            panel3.Controls.Add(Voucher);
+            panel3.Controls.Add(AccountType);
             panel3.Controls.Add(label3);
             panel3.Location = new Point(232, 58);
             panel3.Name = "panel3";
             panel3.Size = new Size(886, 32);
             panel3.TabIndex = 8;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(286, 4);
+            button8.Name = "button8";
+            button8.Size = new Size(124, 23);
+            button8.TabIndex = 5;
+            button8.Text = "Reportes";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // Voucher
+            // 
+            Voucher.Location = new Point(140, 4);
+            Voucher.Name = "Voucher";
+            Voucher.Size = new Size(137, 23);
+            Voucher.TabIndex = 4;
+            Voucher.Text = "Asiento contable";
+            Voucher.UseVisualStyleBackColor = true;
+            Voucher.Click += Voucher_Click;
+            // 
+            // AccountType
+            // 
+            AccountType.Location = new Point(23, 4);
+            AccountType.Name = "AccountType";
+            AccountType.Size = new Size(111, 23);
+            AccountType.TabIndex = 3;
+            AccountType.Text = "Tipo de cuenta";
+            AccountType.UseVisualStyleBackColor = true;
+            AccountType.Click += AccountType_Click;
             // 
             // label3
             // 
@@ -579,5 +614,8 @@
         private ComboBox selectNameDelete;
         private Label label14;
         private ComboBox selectCodEdit;
+        private Button button8;
+        private Button Voucher;
+        private Button AccountType;
     }
 }
