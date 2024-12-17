@@ -7,10 +7,12 @@ namespace BusinessLayer
     public class AccountService
     {
         private readonly AccountRepository _repository;
+        private readonly LogsService_EAMS _logs_eams;
 
         public AccountService()
         {
             _repository = new AccountRepository();
+            _logs_eams = new LogsService_EAMS();
         }
 
         public void AddAccount(string accountData)
@@ -29,6 +31,7 @@ namespace BusinessLayer
                };
 
             _repository.Create(account);
+            _logs_eams.RegisterLogs_EAMS("Create");
         }
         public List<AccountType> GetAccountTypes()
         {
@@ -60,6 +63,7 @@ namespace BusinessLayer
         public void DeleteAccount(int accountId)
         {
             _repository.Delete(accountId);
+            _logs_eams.RegisterLogs_EAMS("Delete");
         }
 
         public List<Account> SearchAccounts(string keyword)

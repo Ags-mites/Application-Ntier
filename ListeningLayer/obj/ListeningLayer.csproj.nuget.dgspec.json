@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj": {}
+    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj": {
-                "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj"
+              "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj": {
+                "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj": {
+    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
         "projectName": "ListeningLayer",
-        "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
+        "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\ListeningLayer.csproj",
         "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\obj\\",
+        "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj": {
+    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj",
         "projectName": "PersistenceLayer",
-        "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\PersistenceLayer.csproj",
         "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\obj\\",
+        "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,8 +159,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
-                "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj"
+              "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
+                "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
+    "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
         "projectName": "ResourceLayer",
-        "projectPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
+        "projectPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\ResourceLayer.csproj",
         "packagesPath": "C:\\Users\\Agustin Mites\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\obj\\",
+        "outputPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ResourceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Agustin Mites\\AppData\\Roaming\\NuGet\\NuGet.Config",

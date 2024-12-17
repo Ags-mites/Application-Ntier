@@ -3,64 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\listeninglayer\\socketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|solutionrelative:listeninglayer\\socketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB48EA8D-5CBC-4BEC-B468-0E51212A5DBC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\businesslayer\\accounttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB48EA8D-5CBC-4BEC-B468-0E51212A5DBC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\accounttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\presentationlayer\\account\\formvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\formvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\presentationlayer\\account\\formvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\formvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB48EA8D-5CBC-4BEC-B468-0E51212A5DBC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\businesslayer\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB48EA8D-5CBC-4BEC-B468-0E51212A5DBC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\voucherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\dto\\entrydetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\dto\\entrydetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\listeninglayer\\interfaces\\isocketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5C43161-B2A0-4885-A0B0-400BCEC36DA3}|ListeningLayer\\ListeningLayer.csproj|solutionrelative:listeninglayer\\interfaces\\isocketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\entrydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\entrydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\entryheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\entryheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\dto\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\dto\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\agustin mites\\source\\repos\\application-ntier\\persistencelayer\\dto\\logsrepository_eams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\dto\\logsrepository_eams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,8 +13,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 511,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 587,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,204 +23,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 821,
-          "SelectedChildIndex": 7,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Login.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Login.cs",
-              "RelativeToolTip": "PresentationLayer\\Login.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvy0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:18:18.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Program.cs",
-              "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:17:52.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ISocketListener.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\interfaces\\ISocketListener.cs",
-              "RelativeDocumentMoniker": "ListeningLayer\\interfaces\\ISocketListener.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\interfaces\\ISocketListener.cs",
-              "RelativeToolTip": "ListeningLayer\\interfaces\\ISocketListener.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:54:40.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountType.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountType.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\AccountType.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\AccountType.cs",
-              "RelativeToolTip": "PersistenceLayer\\AccountType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:10:42.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:10:45.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:10:39.778Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormVoucher.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\FormVoucher.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\FormVoucher.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\FormVoucher.cs",
-              "RelativeToolTip": "PresentationLayer\\Account\\FormVoucher.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:23:19.352Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SocketListener.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\SocketListener.cs",
-              "RelativeDocumentMoniker": "ListeningLayer\\SocketListener.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\ListeningLayer\\SocketListener.cs",
-              "RelativeToolTip": "ListeningLayer\\SocketListener.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAADwv9UAAAABAAAA",
+              "Title": "LogsRepository_EAMS.cs",
+              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\LogsRepository_EAMS.cs",
+              "RelativeDocumentMoniker": "PersistenceLayer\\DTO\\LogsRepository_EAMS.cs",
+              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\LogsRepository_EAMS.cs",
+              "RelativeToolTip": "PersistenceLayer\\DTO\\LogsRepository_EAMS.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:12:59.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountTypeService.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\AccountTypeService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\AccountTypeService.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\AccountTypeService.cs",
-              "RelativeToolTip": "BusinessLayer\\AccountTypeService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwC0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:04:25.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\DTO\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\AccountRepository.cs",
-              "RelativeToolTip": "PersistenceLayer\\DTO\\AccountRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:54:29.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EntryHeader.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\EntryHeader.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\EntryHeader.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\EntryHeader.cs",
-              "RelativeToolTip": "PersistenceLayer\\EntryHeader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:15:40.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EntryDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\EntryDetail.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\EntryDetail.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\EntryDetail.cs",
-              "RelativeToolTip": "PersistenceLayer\\EntryDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:15:39.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EntryDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\EntryDetailRepository.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\DTO\\EntryDetailRepository.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PersistenceLayer\\DTO\\EntryDetailRepository.cs",
-              "RelativeToolTip": "PersistenceLayer\\DTO\\EntryDetailRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:08:50.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormVoucher.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\FormVoucher.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\FormVoucher.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\PresentationLayer\\Account\\FormVoucher.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Account\\FormVoucher.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:40:28.602Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VoucherService.cs",
-              "DocumentMoniker": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\VoucherService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\VoucherService.cs",
-              "ToolTip": "C:\\Users\\Agustin Mites\\source\\repos\\Application-Ntier\\BusinessLayer\\VoucherService.cs",
-              "RelativeToolTip": "BusinessLayer\\VoucherService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAuwDoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T03:29:39.233Z",
+              "WhenOpened": "2024-12-17T00:33:45.291Z",
               "EditorCaption": ""
             }
           ]
