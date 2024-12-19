@@ -7,6 +7,7 @@ using BusinessLayer;
 using ListeningLayer.interfaces;
 using PersistenceLayer;
 using static System.Collections.Specialized.BitVector32;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ListeningLayer
 {
@@ -15,6 +16,7 @@ namespace ListeningLayer
         private readonly AccountService _accountService;
         private readonly AccountTypeService _accountTypeService;
         private readonly VoucherService _voucherService;
+        private readonly LoginService _loginService;
 
         public event Action<string> DataProcessed;
 
@@ -23,6 +25,7 @@ namespace ListeningLayer
             _accountService = new AccountService();
             _accountTypeService = new AccountTypeService();
             _voucherService = new VoucherService();
+            _loginService = new LoginService();
         }
 
         public void StartListening()
@@ -47,7 +50,8 @@ namespace ListeningLayer
                         LoadDataAccounts(action);
                         LoadData(action);
                         DeleteData(data, action);
-
+                        LoadEntryDetail(data, action);
+                        LoadEntryHeader(data, action);
                         NotifyDataProcessed($"Datos recibidos: {data}");
                     }
                 }
@@ -57,7 +61,13 @@ namespace ListeningLayer
                 }
             }
         }
-      
+
+        public bool Login(string username, string password) {
+            var result = _loginService.ValidateUser(username, password);
+            return result;
+        }
+
+
         public void SendData(string accountData, string action)
         {
             try
@@ -78,11 +88,12 @@ namespace ListeningLayer
                     break;
                     case "New-Voucher":
                         _voucherService.AddVoucher(accountData);
+                        
+                        break;
+                    case "Update-Voucher":
+                        _voucherService.UpdateVoucher(accountData);
                     break;
                 }
-
-
-
             }
             catch (Exception ex)
             {
@@ -152,6 +163,60 @@ namespace ListeningLayer
             }
         }
 
+        public List<EntryHeader> LoadEntryHeader(string action, string? keyword = null) {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-EntryHeaderRepository":
+                        var entryHeaderRepository = _voucherService.GetEntryHeaderRepository();
+                        return entryHeaderRepository;
+
+                    case "Search-EntryHeader":
+                        var entryHeaderResult = _voucherService.SearchEntryHeader(keyword);
+                        return entryHeaderResult;
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<EntryHeader>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+        public List<EntryDetail> LoadEntryDetail(string action, string? keyword = null)
+        {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-EntryDetail":
+                        var loadEntryDetailsbyHeader = _voucherService.GetEntryDetailsbyEntryHeader(keyword);
+                        return loadEntryDetailsbyHeader;
+                    
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<EntryDetail>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+
         public List<AccountType> LoadData( string action )
         {
             try
@@ -190,6 +255,10 @@ namespace ListeningLayer
                     case "Delete-AccountType":
                         int accountTypeId = Convert.ToInt32(id);
                         _accountTypeService.DeleteAccountType(accountTypeId);
+                    break;
+                    case "Delete-Voucher":
+                        int deleteVoucherId = Convert.ToInt32(id);
+                        _voucherService.DeleteVoucherId(deleteVoucherId);
                     break;
 
                     default:

@@ -39,13 +39,13 @@
             btnEliminarAccount = new Button();
             label14 = new Label();
             groupBox3 = new GroupBox();
+            dateVoucherEdit = new DateTimePicker();
             comboBox1 = new ComboBox();
-            textBox3 = new TextBox();
             btnEditAccount = new Button();
-            textBox4 = new TextBox();
+            txtDescriptionEdit = new TextBox();
             label8 = new Label();
             label11 = new Label();
-            textBox5 = new TextBox();
+            txtTypeVoucherEdit = new TextBox();
             label10 = new Label();
             label9 = new Label();
             groupBox2 = new GroupBox();
@@ -123,6 +123,7 @@
             searchBtn.TabIndex = 8;
             searchBtn.Text = "Buscar Cuenta";
             searchBtn.UseVisualStyleBackColor = true;
+            searchBtn.Click += searchBtn_Click;
             // 
             // txtNameSearch
             // 
@@ -168,6 +169,7 @@
             btnEliminarAccount.TabIndex = 8;
             btnEliminarAccount.Text = "Eliminar Cuenta";
             btnEliminarAccount.UseVisualStyleBackColor = true;
+            btnEliminarAccount.Click += btnEliminarAccount_Click;
             // 
             // label14
             // 
@@ -180,13 +182,13 @@
             // 
             // groupBox3
             // 
+            groupBox3.Controls.Add(dateVoucherEdit);
             groupBox3.Controls.Add(comboBox1);
-            groupBox3.Controls.Add(textBox3);
             groupBox3.Controls.Add(btnEditAccount);
-            groupBox3.Controls.Add(textBox4);
+            groupBox3.Controls.Add(txtDescriptionEdit);
             groupBox3.Controls.Add(label8);
             groupBox3.Controls.Add(label11);
-            groupBox3.Controls.Add(textBox5);
+            groupBox3.Controls.Add(txtTypeVoucherEdit);
             groupBox3.Controls.Add(label10);
             groupBox3.Controls.Add(label9);
             groupBox3.Location = new Point(543, 81);
@@ -196,6 +198,13 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Editar cuenta";
             // 
+            // dateVoucherEdit
+            // 
+            dateVoucherEdit.Location = new Point(71, 60);
+            dateVoucherEdit.Name = "dateVoucherEdit";
+            dateVoucherEdit.Size = new Size(200, 23);
+            dateVoucherEdit.TabIndex = 15;
+            // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
@@ -203,13 +212,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(142, 23);
             comboBox1.TabIndex = 11;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(129, 60);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(142, 23);
-            textBox3.TabIndex = 21;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // btnEditAccount
             // 
@@ -219,14 +222,15 @@
             btnEditAccount.TabIndex = 8;
             btnEditAccount.Text = "Editar Cuenta";
             btnEditAccount.UseVisualStyleBackColor = true;
+            btnEditAccount.Click += btnEditAccount_Click;
             // 
-            // textBox4
+            // txtDescriptionEdit
             // 
-            textBox4.Location = new Point(129, 118);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(142, 37);
-            textBox4.TabIndex = 20;
+            txtDescriptionEdit.Location = new Point(129, 118);
+            txtDescriptionEdit.Multiline = true;
+            txtDescriptionEdit.Name = "txtDescriptionEdit";
+            txtDescriptionEdit.Size = new Size(142, 37);
+            txtDescriptionEdit.TabIndex = 20;
             // 
             // label8
             // 
@@ -246,12 +250,12 @@
             label11.TabIndex = 14;
             label11.Text = "Fecha";
             // 
-            // textBox5
+            // txtTypeVoucherEdit
             // 
-            textBox5.Location = new Point(129, 89);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(142, 23);
-            textBox5.TabIndex = 18;
+            txtTypeVoucherEdit.Location = new Point(129, 89);
+            txtTypeVoucherEdit.Name = "txtTypeVoucherEdit";
+            txtTypeVoucherEdit.Size = new Size(142, 23);
+            txtTypeVoucherEdit.TabIndex = 18;
             // 
             // label10
             // 
@@ -519,6 +523,7 @@
             Controls.Add(menuStrip1);
             Name = "FormVoucher";
             Text = "Voucher";
+            Load += FormVoucher_Load;
             groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             groupBox6.ResumeLayout(false);
@@ -554,12 +559,11 @@
         private Label label14;
         private GroupBox groupBox3;
         private ComboBox comboBox1;
-        private TextBox textBox3;
         private Button btnEditAccount;
-        private TextBox textBox4;
+        private TextBox txtDescriptionEdit;
         private Label label8;
         private Label label11;
-        private TextBox textBox5;
+        private TextBox txtTypeVoucherEdit;
         private Label label10;
         private Label label9;
         private GroupBox groupBox2;
@@ -586,5 +590,6 @@
         private Label label1;
         private MenuStrip menuStrip1;
         private DateTimePicker dateVoucherCreate;
+        private DateTimePicker dateVoucherEdit;
     }
 }

@@ -109,7 +109,7 @@ namespace PresentationLayer
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al eliminar la cuenta {selectedAccountType}");
+                MessageBox.Show($"Error al eliminar la cuenta: {ex.Message}");
             }
         }
 
