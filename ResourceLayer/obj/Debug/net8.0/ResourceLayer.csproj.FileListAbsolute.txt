@@ -25,3 +25,31 @@ C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\ne
 C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\refint\ResourceLayer.dll
 C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.pdb
 C:\Users\Agustin Mites\source\repos\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ref\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.deps.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.AssemblyReference.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfoInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfo.cs
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.sourcelink.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\refint\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ref\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.deps.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.AssemblyReference.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfoInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.AssemblyInfo.cs
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.sourcelink.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\refint\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\ResourceLayer\obj\Debug\net8.0\ref\ResourceLayer.dll

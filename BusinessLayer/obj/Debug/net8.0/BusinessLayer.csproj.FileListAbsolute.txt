@@ -35,3 +35,41 @@ C:\Users\Agustin Mites\source\repos\Application-Ntier\BusinessLayer\obj\Debug\ne
 C:\Users\Agustin Mites\source\repos\Application-Ntier\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
 C:\Users\Agustin Mites\source\repos\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
 C:\Users\Agustin Mites\source\repos\Application-Ntier\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

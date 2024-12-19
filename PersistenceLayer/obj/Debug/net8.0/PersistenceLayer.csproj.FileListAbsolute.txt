@@ -31,3 +31,37 @@ C:\Users\Agustin Mites\source\repos\Application-Ntier\PersistenceLayer\obj\Debug
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\refint\PersistenceLayer.dll
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.pdb
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\ref\PersistenceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.deps.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.csproj.AssemblyReference.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfoInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfo.cs
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.sourcelink.json
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\Persiste.4ACC52CF.Up2Date
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\refint\PersistenceLayer.dll
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Milena Reyes\Downloads\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\ref\PersistenceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\appsettings.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.deps.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\ResourceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\bin\Debug\net8.0\ResourceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.csproj.AssemblyReference.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfoInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfo.cs
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.sourcelink.json
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\Persiste.4ACC52CF.Up2Date
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\refint\PersistenceLayer.dll
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\Agustin Mites\Downloads\Application-Ntier-main (2)\Application-Ntier-main\Application-Ntier\PersistenceLayer\obj\Debug\net8.0\ref\PersistenceLayer.dll

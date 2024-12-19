@@ -4,7 +4,7 @@
     <Compile Update="Account\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Nómina.cs">
+    <Compile Update="Nomina\Nómina.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Selección.cs">

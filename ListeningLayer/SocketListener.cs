@@ -13,12 +13,14 @@ namespace ListeningLayer
     public class SocketListener : ISocketListener
     {
         private readonly AccountService _accountService;
+        private readonly MotivoIngresoEgresoService _motivoIngresoEgresoService;
 
         public event Action<string> DataProcessed;
 
         public SocketListener()
         {
             _accountService = new AccountService();
+            _motivoIngresoEgresoService = new MotivoIngresoEgresoService();
         }
 
         public void StartListening()
@@ -41,6 +43,7 @@ namespace ListeningLayer
 
                         SendData(data, action);
                         LoadDataAccounts(action);
+                        LoadDataMotivos(action);
                         LoadData(action);
                         DeleteData(data, action);
 
@@ -66,6 +69,13 @@ namespace ListeningLayer
                     case "Edit-Account":
                         _accountService.UpdateAccount(accountData);
                     break;
+                    case "New-Motivo":
+                        _motivoIngresoEgresoService.AddMotivo(accountData);
+                    break;
+                    case "Edit-Motivo":
+                        _motivoIngresoEgresoService.UpdateMotivo(accountData);
+                    break;
+                   
                 }
 
 
@@ -78,7 +88,7 @@ namespace ListeningLayer
             }
         }
 
-        public List<Account> LoadDataAccounts(string action)
+        public List<Account> LoadDataAccounts(string action, string? keyword = null)
         {
             try
             {
@@ -97,6 +107,62 @@ namespace ListeningLayer
                     default:
                         NotifyDataProcessed("Acción no reconocida.");
                         return new List<Account>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+        public List<MOTIVO_INGRESO_EGRESO> LoadDataMotivos(string action, string? keyword = null)
+        {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-MotivosRepository":
+                        var motivosRepository = _motivoIngresoEgresoService.GetMotivosRepository();
+                        return motivosRepository;
+
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<MOTIVO_INGRESO_EGRESO>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+        public List<MOTIVO_INGRESO_EGRESO> LoadDataMotivo(string action, string? keyword = null)
+        {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-Nomina":
+                        var Motivo = _motivoIngresoEgresoService.GetNomina();
+                        return Motivo;
+
+                    case "Search-Nomina":
+                        var searchMotivo = _motivoIngresoEgresoService.SearchByMotivo(keyword);
+                     return searchMotivo;
+
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<MOTIVO_INGRESO_EGRESO>();
 
                 }
 
@@ -142,6 +208,10 @@ namespace ListeningLayer
                         int accountId = Convert.ToInt32(id);
                         _accountService.DeleteAccount(accountId);
                      break;
+                    case "Delete-Motivo":
+                        int motivoId = Convert.ToInt32(id);
+                        _motivoIngresoEgresoService.DeleteMotivo(motivoId);
+                    break;
 
                     default:
                         NotifyDataProcessed("Acción no reconocida.");
@@ -163,3 +233,4 @@ namespace ListeningLayer
         }
     }
 }
+

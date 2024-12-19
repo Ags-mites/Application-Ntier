@@ -153,7 +153,7 @@ namespace PresentationLayer
 
         public void ReloadData()
         {
-            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository");
+            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository",  null);
             var bindingSource = new BindingSource();
             bindingSource.DataSource = reportAccountsRepository;
             dataGridView1.DataSource = bindingSource;
@@ -177,7 +177,7 @@ namespace PresentationLayer
             selectStatusEdit.Items.Clear();
             selectStatusEdit.Items.AddRange(accountStatus);
 
-            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts");
+            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts", null);
             var allAccountsEdit = new List<Account>(allAccounts);
             var allAccountsDelete = new List<Account>(allAccounts);
 
@@ -188,6 +188,20 @@ namespace PresentationLayer
             selectNameDelete.DataSource = allAccountsDelete;
             selectNameDelete.DisplayMember = "name";
             selectNameDelete.ValueMember = "id";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            var formnomina = new Nómina(_socketListener);
+            formnomina.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            formnomina.Show();
+            this.Hide();
+
         }
     }
 }
