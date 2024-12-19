@@ -29,18 +29,30 @@ namespace PresentationLayer
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {/*
+            string username = txtUsername.Text; 
+            string password = txtPassword.Text;
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Por favor, ingrese usuario y contraseña.");
+                return;
+            }
+            */
+
+            //bool loginSuccess = _socketListener.Login(username, password);
             bool loginSuccess = true;
 
-            if (loginSuccess)
+            if (!loginSuccess)
             {
-                this.DialogResult = DialogResult.OK;
-                this.Close();
+                MessageBox.Show("Usuario o contraseña incorrectos.", "Error");
+                return;
             }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos.");
-            }
+
+            MessageBox.Show("Inicio de sesión exitoso.", "Éxito");
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+           
         }
     }
 }

@@ -149,11 +149,31 @@ namespace PresentationLayer
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var searchAccountData = $"{txtNameSearch.Text}";
+                if (string.IsNullOrWhiteSpace(searchAccountData))
+                {
+                    ReloadData();
+                    return;
+                }
+                var result = _socketListener.LoadDataAccounts("Search-Account", searchAccountData);
+                MessageBox.Show("Datos enviados a la capa de escucha.");
+                var bindingSource = new BindingSource();
+                bindingSource.DataSource = result;
+                dataGridView1.DataSource = bindingSource;
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
 
         public void ReloadData()
         {
-            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository");
+            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository", null);
             var bindingSource = new BindingSource();
             bindingSource.DataSource = reportAccountsRepository;
             dataGridView1.DataSource = bindingSource;
@@ -177,7 +197,7 @@ namespace PresentationLayer
             selectStatusEdit.Items.Clear();
             selectStatusEdit.Items.AddRange(accountStatus);
 
-            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts");
+            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts", null);
             var allAccountsEdit = new List<Account>(allAccounts);
             var allAccountsDelete = new List<Account>(allAccounts);
 
@@ -188,6 +208,31 @@ namespace PresentationLayer
             selectNameDelete.DataSource = allAccountsDelete;
             selectNameDelete.DisplayMember = "name";
             selectNameDelete.ValueMember = "id";
+        }
+
+        private void AccountType_Click(object sender, EventArgs e)
+        {
+            var formAccountType = new FormAccountType(_socketListener);
+            formAccountType.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            formAccountType.Show();
+            this.Hide();
+        }
+
+        private void Voucher_Click(object sender, EventArgs e)
+        {
+            var fomrVoucher = new FormVoucher(_socketListener);
+            fomrVoucher.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            fomrVoucher.Show();
+            this.Hide();
+
         }
     }
 }
