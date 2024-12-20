@@ -17,6 +17,8 @@ namespace ListeningLayer
         private readonly AccountTypeService _accountTypeService;
         private readonly VoucherService _voucherService;
         private readonly LoginService _loginService;
+        private readonly MotivoIngresoEgresoService _motivoIngresoEgresoService;
+        private readonly EmpleadoService _empleadoService;
 
         public event Action<string> DataProcessed;
 
@@ -26,6 +28,8 @@ namespace ListeningLayer
             _accountTypeService = new AccountTypeService();
             _voucherService = new VoucherService();
             _loginService = new LoginService();
+            _motivoIngresoEgresoService = new MotivoIngresoEgresoService();
+            _empleadoService = new EmpleadoService();
         }
 
         public void StartListening()
@@ -88,16 +92,56 @@ namespace ListeningLayer
                     break;
                     case "New-Voucher":
                         _voucherService.AddVoucher(accountData);
-                        
                         break;
                     case "Update-Voucher":
                         _voucherService.UpdateVoucher(accountData);
+                    break;
+                    case "New-Motivo":
+                        _motivoIngresoEgresoService.AddMotivo(accountData);
+                        break;
+                    case "Edit-Motivo":
+                        _motivoIngresoEgresoService.UpdateMotivo(accountData);
+                        break;
+                    case "New-empleado":
+                        _empleadoService.AddEmpleado(accountData);
+                    break;
+                    case "Edit-Worker":
+                        _empleadoService.UpdateEmpleado(accountData);
                     break;
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error al procesar los datos: {ex.Message}");
+                throw;
+            }
+        }
+        public List<MOTIVO_INGRESO_EGRESO> LoadDataMotivo(string action, string? keyword = null)
+        {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-Nomina":
+                        var Motivo = _motivoIngresoEgresoService.GetNomina();
+                        return Motivo;
+
+                    case "Search-Nomina":
+                        var searchMotivo = _motivoIngresoEgresoService.SearchByMotivo(keyword);
+                        return searchMotivo;
+
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<MOTIVO_INGRESO_EGRESO>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
                 throw;
             }
         }
@@ -152,6 +196,35 @@ namespace ListeningLayer
                     default:
                         NotifyDataProcessed("Acción no reconocida.");
                         return new List<AccountType>();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al leer los datos: {ex.Message}");
+                throw;
+            }
+        }
+
+        public List<Empleados> LoadDataEmpleado(string action, string? keyword = null)
+        {
+            try
+            {
+                switch (action)
+                {
+
+                    case "Load-EmpleadosRepository":
+                        var empleadosRepository = _empleadoService.GetEmpleadosRepository();
+                        return empleadosRepository;
+
+                    case "Search-Worker":
+                        var empleadoResult = _empleadoService.SearchWorkers(keyword);
+                        return empleadoResult;
+
+                    default:
+                        NotifyDataProcessed("Acción no reconocida.");
+                        return new List<Empleados>();
 
                 }
 
@@ -259,6 +332,10 @@ namespace ListeningLayer
                     case "Delete-Voucher":
                         int deleteVoucherId = Convert.ToInt32(id);
                         _voucherService.DeleteVoucherId(deleteVoucherId);
+                    break;
+                    case "Delete-worker":
+                        int deleteWorkerId = Convert.ToInt32(id);
+                        _empleadoService.DeleteWorkerId(deleteWorkerId);
                     break;
 
                     default:

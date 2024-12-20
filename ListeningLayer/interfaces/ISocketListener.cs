@@ -18,6 +18,11 @@ namespace ListeningLayer.interfaces
         List<AccountType> LoadDataAccountTypes( string acction, string? data);
         List<EntryDetail> LoadEntryDetail( string acction, string? data);
         List<EntryHeader> LoadEntryHeader( string acction, string? data);
+
+        List<MOTIVO_INGRESO_EGRESO> LoadDataMotivo(string acction, string? data);
+        List<Empleados> LoadDataEmpleado(string acction, string? data);
+
         event Action<string> DataProcessed;
     }
 }
+

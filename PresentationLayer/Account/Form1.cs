@@ -24,10 +24,17 @@ namespace PresentationLayer
 
         private void OnDataProcessed(string message)
         {
-            Invoke(new Action(() =>
+            if (this.IsHandleCreated)
             {
-                MessageBox.Show(message, "Datos Procesados");
-            }));
+                this.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(message, "Datos Procesados");
+                }));
+            }
+            else
+            {
+                Console.WriteLine("El control aún no está creado.");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -231,6 +238,19 @@ namespace PresentationLayer
                 this.Show();
             };
             fomrVoucher.Show();
+            this.Hide();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var formnomina = new Nómina(_socketListener);
+            formnomina.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            formnomina.Show();
             this.Hide();
 
         }

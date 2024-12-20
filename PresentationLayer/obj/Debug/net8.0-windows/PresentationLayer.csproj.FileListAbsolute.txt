@@ -94,3 +94,4 @@ C:\Users\Agustin Mites\source\repos\Application-Ntier\PresentationLayer\obj\Debu
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.FormAccountType.resources
 C:\Users\Agustin Mites\source\repos\Application-Ntier\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.FormVoucher.resources
+C:\Users\Agustin Mites\source\repos\Application-Ntier\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Nomina.Workers.resources
