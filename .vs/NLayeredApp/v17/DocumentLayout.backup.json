@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\account\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\persistencelayer\\clientesyciudad\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\clientesyciudad\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\presentationlayer\\facturacion\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\facturacion\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\persistencelayer\\clientesyciudad\\registrarlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\persistencelayer\\clientesyciudad\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACD0B73A-2F2F-4FF4-BD17-E2634F6C7358}|PersistenceLayer\\PersistenceLayer.csproj|solutionrelative:persistencelayer\\clientesyciudad\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\facturacion\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A6D540F-51AC-49CC-9AEA-DF25D1462DF7}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\augusto\\desktop\\jeremmy\\aplicaciones distribuidas\\proyecto parcial 1\\prueba-5\\application-ntier\\presentationlayer\\facturacion\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,11 +122,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 524,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Facturaci\u00F3n.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs",
@@ -137,57 +137,6 @@
               "WhenOpened": "2024-12-13T18:38:28.171Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
-              "RelativeToolTip": "PresentationLayer\\Login.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswDMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T00:28:58.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
-              "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
-              "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T01:53:49.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
-              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAAAN8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:54:35.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T00:28:53.358Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Bookmark",
@@ -203,31 +152,107 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
+              "RelativeToolTip": "PresentationLayer\\Login.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:28:58.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
+              "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
+              "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T01:53:49.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Account\\Form1.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Account\\Form1.cs",
+              "RelativeToolTip": "PresentationLayer\\Account\\Form1.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAAAN8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:54:35.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:28:53.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Ciudad.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Ciudad.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Ciudad.cs",
               "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Ciudad.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\Facturacion\\Ciudad.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:51:41.59Z",
+              "WhenOpened": "2024-12-16T22:51:41.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Reportes.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PresentationLayer\\Facturacion\\Reportes.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:28:20.217Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Reportes.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs*",
+              "RelativeToolTip": "PresentationLayer\\Facturacion\\Reportes.cs*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:28:28.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Facturaci\u00F3n.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs",
               "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\Facturacion\\Facturaci\u00F3n.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:24:25.717Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-16T23:24:25.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Program.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
@@ -235,24 +260,11 @@
               "RelativeToolTip": "PresentationLayer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:23:06.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T16:23:06.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Reportes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Reportes.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\Facturacion\\Reportes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T04:28:20.217Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegistrarLog.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\RegistrarLog.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\RegistrarLog.cs",
@@ -260,12 +272,11 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\RegistrarLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:26:19.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:26:19.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Conexion.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\Conexion.cs",
@@ -273,24 +284,22 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:24:48.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T18:24:48.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PantallaCompleja.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\PantallaCompleja.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\PantallaCompleja.cs",
               "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\PantallaCompleja.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\Facturacion\\PantallaCompleja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:50:54.454Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-16T17:50:54.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CiudadEntregaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\CiudadEntregaRepository.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\CiudadEntregaRepository.cs",
@@ -298,12 +307,11 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\CiudadEntregaRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T02:11:39.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T02:11:39.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\Articulo.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\Articulo.cs",
@@ -311,12 +319,11 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\Articulo.cs",
               "ViewState": "AgIAABIAAAAAAAAAAADgvx0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T01:49:55.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T01:49:55.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "InsertarVentaPorCiudad.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\InsertarVentaPorCiudad.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\InsertarVentaPorCiudad.cs",
@@ -324,12 +331,11 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\InsertarVentaPorCiudad.cs",
               "ViewState": "AgIAACMAAAAAAAAAAADwvzkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:14:21.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T16:14:21.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "InsertarReportePorClienteArticulo.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\InsertarReportePorClienteArticulo.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\InsertarReportePorClienteArticulo.cs",
@@ -337,12 +343,11 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\InsertarReportePorClienteArticulo.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:15:09.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T16:15:09.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PersistenceLayer\\ClientesyCiudad\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "PersistenceLayer\\ClientesyCiudad\\ClienteRepository.cs",
@@ -350,21 +355,7 @@
               "RelativeToolTip": "PersistenceLayer\\ClientesyCiudad\\ClienteRepository.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAADwv5wAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T01:33:25.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Reportes.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Facturacion\\Reportes.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Jeremmy\\Aplicaciones distribuidas\\Proyecto parcial 1\\Prueba-5\\Application-Ntier\\PresentationLayer\\Facturacion\\Reportes.cs",
-              "RelativeToolTip": "PresentationLayer\\Facturacion\\Reportes.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwFMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T04:28:28.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T01:33:25.455Z"
             },
             {
               "$type": "Document",
@@ -376,8 +367,7 @@
               "RelativeToolTip": "PresentationLayer\\Facturacion\\Ciudad.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAxwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:53:00.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:53:00.605Z"
             },
             {
               "$type": "Document",
@@ -389,8 +379,7 @@
               "RelativeToolTip": "PresentationLayer\\Facturacion\\PantallaCompleja.cs",
               "ViewState": "AgIAAC8BAAAAAAAAAAAAADEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T00:22:38.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T00:22:38.137Z"
             },
             {
               "$type": "Document",
@@ -402,8 +391,7 @@
               "RelativeToolTip": "PresentationLayer\\Facturacion\\Ciudad.Designer.cs",
               "ViewState": "AgIAAN4BAAAAAAAAAAAAAOYBAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:56:30.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:56:30.249Z"
             },
             {
               "$type": "Document",
@@ -415,12 +403,7 @@
               "RelativeToolTip": "PresentationLayer\\Facturacion\\facturaci\u00F3n.Designer.cs",
               "ViewState": "AgIAAAUCAAAAAAAAAAAAABACAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:31:30.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2024-12-19T17:31:30.905Z"
             },
             {
               "$type": "Document",
@@ -432,8 +415,7 @@
               "RelativeToolTip": "PresentationLayer\\Facturacion\\PantallaCompleja.Designer.cs",
               "ViewState": "AgIAALMBAAAAAAAAAAAAALwBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T00:33:11.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T00:33:11.809Z"
             },
             {
               "$type": "Document",
