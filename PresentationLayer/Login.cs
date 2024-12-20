@@ -22,10 +22,17 @@ namespace PresentationLayer
 
         private void OnDataProcessed(string message)
         {
-            Invoke(new Action(() =>
+            if (this.IsHandleCreated)
             {
-                MessageBox.Show(message, "Datos Procesados");
-            }));
+                this.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(message, "Datos Procesados");
+                }));
+            }
+            else
+            {
+                Console.WriteLine("El control aún no está creado.");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
