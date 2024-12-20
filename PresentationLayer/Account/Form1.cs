@@ -20,6 +20,7 @@ namespace PresentationLayer
             {
                 listener.DataProcessed += OnDataProcessed;
             }
+            
         }
 
         private void OnDataProcessed(string message)
@@ -188,6 +189,39 @@ namespace PresentationLayer
             selectNameDelete.DataSource = allAccountsDelete;
             selectNameDelete.DisplayMember = "name";
             selectNameDelete.ValueMember = "id";
+        }
+
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            /*Facturación otroFormulario = new Facturación(_socketListener);
+            otroFormulario.Show(); 
+            this.Close();
+
+            /*var facturacionForm = new Facturación(_socketListener);
+            facturacionForm.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            facturacionForm.Show();
+            this.Hide();*/
+            // Crear una instancia del formulario de facturación
+            Facturación otroFormulario = new Facturación(_socketListener);
+
+            // Suscribirse al evento FormClosed para manejar el cierre del formulario de facturación
+            otroFormulario.FormClosed += (s, args) =>
+            {
+                // Aquí puedes realizar cualquier acción que necesites al cerrar el formulario de facturación
+                ReloadData(); // Por ejemplo, recargar datos
+                this.Show(); // Mostrar nuevamente el formulario original
+            };
+
+            // Mostrar el formulario de facturación
+            otroFormulario.Show();
+
+            // Ocultar el formulario actual en lugar de cerrarlo
+            this.Hide();
         }
     }
 }

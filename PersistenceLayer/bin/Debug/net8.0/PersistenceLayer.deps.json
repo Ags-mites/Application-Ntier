@@ -273,7 +273,10 @@
           "Oracle.ManagedDataAccess.Core": "23.6.1"
         },
         "runtime": {
-          "ResourceLayer.dll": {}
+          "ResourceLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -272,7 +272,10 @@
           "ResourceLayer": "1.0.0"
         },
         "runtime": {
-          "PersistenceLayer.dll": {}
+          "PersistenceLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ResourceLayer/1.0.0": {
@@ -281,7 +284,10 @@
           "Oracle.ManagedDataAccess.Core": "23.6.1"
         },
         "runtime": {
-          "ResourceLayer.dll": {}
+          "ResourceLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

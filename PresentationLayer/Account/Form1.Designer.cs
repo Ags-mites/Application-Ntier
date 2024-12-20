@@ -165,6 +165,7 @@
             button5.TabIndex = 11;
             button5.Text = "facturación";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click_1;
             // 
             // button4
             // 
