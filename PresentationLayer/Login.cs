@@ -1,91 +1,65 @@
-﻿using System;
-using System.Windows.Forms;
-using PersistenceLayer;
-using PersistenceLayer.ClientesyCiudad;
+using ListeningLayer;
+using ListeningLayer.controllers;
+using ListeningLayer.interfaces;
+
 
 namespace PresentationLayer
 {
     public partial class Login : Form
     {
-        private Usuario _usuarioManager;
+        private readonly ISocketListener _socketListener;
 
-        public Login()
+        public Login(SocketListenerController socketController)
         {
             InitializeComponent();
-            _usuarioManager = new Usuario(); // Instancia para manejar la tabla 'usuario'
+            _socketListener = socketController.Listener;
+
+            if (_socketListener is SocketListener listener)
+            {
+                listener.DataProcessed += OnDataProcessed;
+            }
         }
 
-        // Evento para iniciar sesión
-        private void btnIniciar_Click(object sender, EventArgs e)
+        private void OnDataProcessed(string message)
         {
-            string nombreUsuario = textBox1.Text.Trim(); // Usuario (textbox1)
-            string contrasena = textBox2.Text.Trim();    // Contraseña (textbox2)
-
-            if (string.IsNullOrEmpty(nombreUsuario) || string.IsNullOrEmpty(contrasena))
+            if (this.IsHandleCreated)
             {
-                MessageBox.Show("Por favor, ingrese usuario y contraseña.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                this.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(message, "Datos Procesados");
+                }));
+            }
+            else
+            {
+                Console.WriteLine("El control aún no está creado.");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {/*
+            string username = txtUsername.Text; 
+            string password = txtPassword.Text;
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Por favor, ingrese usuario y contraseña.");
+                return;
+            }
+            */
+
+            //bool loginSuccess = _socketListener.Login(username, password);
+            bool loginSuccess = true;
+
+            if (!loginSuccess)
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos.", "Error");
                 return;
             }
 
-            try
-            {
-                var usuarios = _usuarioManager.ObtenerUsuarios(); // Obtiene los usuarios de la base de datos
-                bool existe = usuarios.Select($"NOMBRE_USUARIO = '{nombreUsuario}' AND CONTRASENA = '{contrasena}'").Any();
-
-                if (existe)
-                {
-                    MessageBox.Show("Inicio de sesión exitoso.", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al intentar iniciar sesión: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            MessageBox.Show("Inicio de sesión exitoso.", "Éxito");
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+           
         }
-
-        // Evento para crear un nuevo usuario
-
-        private void btnCrear_Click(object sender, EventArgs e)
-        {
-            string nuevoUsuario = textBox4.Text.Trim(); // Usuario (textbox4)
-            string nuevaContrasena = textBox3.Text.Trim(); // Contraseña (textbox3)
-
-            if (string.IsNullOrEmpty(nuevoUsuario) || string.IsNullOrEmpty(nuevaContrasena))
-            {
-                MessageBox.Show("Por favor, ingrese un usuario y contraseña para crear.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            try
-            {
-                var usuarios = _usuarioManager.ObtenerUsuarios();
-                bool yaExiste = usuarios.Select($"NOMBRE_USUARIO = '{nuevoUsuario}'").Any();
-
-                if (yaExiste)
-                {
-                    MessageBox.Show("El nombre de usuario ya existe. Intente con otro.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-                else
-                {
-                    _usuarioManager.InsertarUsuario(nuevoUsuario, nuevaContrasena); // Crea un nuevo usuario
-                    MessageBox.Show("Usuario creado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    // Limpia los campos después de crear el usuario
-                    textBox4.Text = string.Empty;
-                    textBox3.Text = string.Empty;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al crear el usuario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
     }
 }

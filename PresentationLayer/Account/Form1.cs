@@ -20,15 +20,21 @@ namespace PresentationLayer
             {
                 listener.DataProcessed += OnDataProcessed;
             }
-            
         }
 
         private void OnDataProcessed(string message)
         {
-            Invoke(new Action(() =>
+            if (this.IsHandleCreated)
             {
-                MessageBox.Show(message, "Datos Procesados");
-            }));
+                this.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(message, "Datos Procesados");
+                }));
+            }
+            else
+            {
+                Console.WriteLine("El control a√∫n no est√° creado.");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,7 +48,7 @@ namespace PresentationLayer
             {
                 if (string.IsNullOrWhiteSpace(txtCodCreate.Text))
                 {
-                    MessageBox.Show("Por favor, es importante ingresar el cÛdigo.");
+                    MessageBox.Show("Por favor, es importante ingresar el c√≥digo.");
                     txtCodCreate.Focus();
                     return;
                 }
@@ -85,7 +91,7 @@ namespace PresentationLayer
             {
                 if (selectCodEdit.SelectedItem == null)
                 {
-                    MessageBox.Show("Por favor, es importante seleccionar el cÛdigo.");
+                    MessageBox.Show("Por favor, es importante seleccionar el c√≥digo.");
                     selectCodEdit.Focus();
                     return;
                 }
@@ -150,11 +156,31 @@ namespace PresentationLayer
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var searchAccountData = $"{txtNameSearch.Text}";
+                if (string.IsNullOrWhiteSpace(searchAccountData))
+                {
+                    ReloadData();
+                    return;
+                }
+                var result = _socketListener.LoadDataAccounts("Search-Account", searchAccountData);
+                MessageBox.Show("Datos enviados a la capa de escucha.");
+                var bindingSource = new BindingSource();
+                bindingSource.DataSource = result;
+                dataGridView1.DataSource = bindingSource;
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
 
         public void ReloadData()
         {
-            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository");
+            var reportAccountsRepository = _socketListener.LoadDataAccounts("Load-AccountsRepository", null);
             var bindingSource = new BindingSource();
             bindingSource.DataSource = reportAccountsRepository;
             dataGridView1.DataSource = bindingSource;
@@ -178,7 +204,7 @@ namespace PresentationLayer
             selectStatusEdit.Items.Clear();
             selectStatusEdit.Items.AddRange(accountStatus);
 
-            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts");
+            var allAccounts = _socketListener.LoadDataAccounts("Load-Accounts", null);
             var allAccountsEdit = new List<Account>(allAccounts);
             var allAccountsDelete = new List<Account>(allAccounts);
 
@@ -191,37 +217,42 @@ namespace PresentationLayer
             selectNameDelete.ValueMember = "id";
         }
 
-
-        private void button5_Click_1(object sender, EventArgs e)
+        private void AccountType_Click(object sender, EventArgs e)
         {
-            /*FacturaciÛn otroFormulario = new FacturaciÛn(_socketListener);
-            otroFormulario.Show(); 
-            this.Close();
-
-            /*var facturacionForm = new FacturaciÛn(_socketListener);
-            facturacionForm.FormClosed += (s, args) =>
+            var formAccountType = new FormAccountType(_socketListener);
+            formAccountType.FormClosed += (s, args) =>
             {
                 ReloadData();
                 this.Show();
             };
-            facturacionForm.Show();
-            this.Hide();*/
-            // Crear una instancia del formulario de facturaciÛn
-            FacturaciÛn otroFormulario = new FacturaciÛn(_socketListener);
-
-            // Suscribirse al evento FormClosed para manejar el cierre del formulario de facturaciÛn
-            otroFormulario.FormClosed += (s, args) =>
-            {
-                // AquÌ puedes realizar cualquier acciÛn que necesites al cerrar el formulario de facturaciÛn
-                ReloadData(); // Por ejemplo, recargar datos
-                this.Show(); // Mostrar nuevamente el formulario original
-            };
-
-            // Mostrar el formulario de facturaciÛn
-            otroFormulario.Show();
-
-            // Ocultar el formulario actual en lugar de cerrarlo
+            formAccountType.Show();
             this.Hide();
+        }
+
+        private void Voucher_Click(object sender, EventArgs e)
+        {
+            var fomrVoucher = new FormVoucher(_socketListener);
+            fomrVoucher.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            fomrVoucher.Show();
+            this.Hide();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var formnomina = new N√≥mina(_socketListener);
+            formnomina.FormClosed += (s, args) =>
+            {
+                ReloadData();
+                this.Show();
+            };
+            formnomina.Show();
+            this.Hide();
+
         }
     }
 }

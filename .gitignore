@@ -1,0 +1,11 @@
+# Archivos y carpetas temporales de Visual Studio
+.vs/
+*.suo
+*.cache
+*.bin
+*.json
+*.dll
+*.pdb
+*.user
+obj/
+bin/
