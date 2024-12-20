@@ -34,14 +34,22 @@ namespace PresentationLayer
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            var socketController = new SocketListenerController();
-
-            using (var loginForm = new Login(socketController))
+            try
             {
-                if (loginForm.ShowDialog() == DialogResult.OK)
+                var socketController = new SocketListenerController(); // Inicializa el controlador de sockets
+
+                using (var loginForm = new Login())
                 {
-                    Application.Run(new Form1(socketController));
+                    if (loginForm.ShowDialog() == DialogResult.OK)
+                    {
+                        Application.Run(new Form1(socketController)); // Pasa el controlador al constructor
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error en la aplicación: {ex.Message}",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -1,4 +1,4 @@
-﻿using ListeningLayer;
+using ListeningLayer;
 using ListeningLayer.controllers;
 using ListeningLayer.interfaces;
 

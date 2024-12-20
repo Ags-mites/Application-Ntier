@@ -33,7 +33,7 @@ namespace PresentationLayer
             }
             else
             {
-                Console.WriteLine("El control aún no está creado.");
+                Console.WriteLine("El control aÃºn no estÃ¡ creado.");
             }
         }
 
@@ -48,7 +48,7 @@ namespace PresentationLayer
             {
                 if (string.IsNullOrWhiteSpace(txtCodCreate.Text))
                 {
-                    MessageBox.Show("Por favor, es importante ingresar el código.");
+                    MessageBox.Show("Por favor, es importante ingresar el cÃ³digo.");
                     txtCodCreate.Focus();
                     return;
                 }
@@ -91,7 +91,7 @@ namespace PresentationLayer
             {
                 if (selectCodEdit.SelectedItem == null)
                 {
-                    MessageBox.Show("Por favor, es importante seleccionar el código.");
+                    MessageBox.Show("Por favor, es importante seleccionar el cÃ³digo.");
                     selectCodEdit.Focus();
                     return;
                 }
@@ -244,7 +244,7 @@ namespace PresentationLayer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var formnomina = new Nómina(_socketListener);
+            var formnomina = new NÃ³mina(_socketListener);
             formnomina.FormClosed += (s, args) =>
             {
                 ReloadData();

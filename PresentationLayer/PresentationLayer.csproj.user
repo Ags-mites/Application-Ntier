@@ -4,6 +4,8 @@
     <Compile Update="Account\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+
+    <Compile Update="Facturacion\Ciudad.cs">
     <Compile Update="Account\FormAccountType.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -16,10 +18,19 @@
     <Compile Update="Nomina\Workers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Selección.cs">
+    <Compile Update="Facturacion\Facturación.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Facturación.cs">
+    <Compile Update="Facturacion\PantallaCompleja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Facturacion\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Nómina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Selección.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">
